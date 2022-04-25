@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyleSheet, Text, View, Alert } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 import Input from './Input';
 import Button from '../UI/Button';
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
   },
   errorText: {
     textAlign: 'center',
-    color: '#ffffff',
+    color: GlobalStyles.colors.error500,
     margin: 8,
   },
   buttons: {
